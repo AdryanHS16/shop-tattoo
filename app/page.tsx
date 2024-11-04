@@ -16,7 +16,7 @@ export default function Home() {
         <h2 className="text-yellow-400">tatue-se</h2>
       </div>
       <Image
-        className="w-96 absolute right-0 -bottom-20"
+        className="w-96 absolute -right-20 -bottom-20 grayscale"
         src={portrait}
         alt="Retrato de Sandro Luz"
       />
