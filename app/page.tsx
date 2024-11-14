@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="relative flex-1">
       <h1
-        className={`absolute -z-10 text-[400px] uppercase text-zinc-800 left-0 top-0 -left-20 leading-tight ${londrinaSolid.className}`}
+        className={`absolute -z-10 text-[400px] uppercase text-zinc-800 left-0 top-0 leading-tight ${londrinaSolid.className}`}
       >
         Tattoo
       </h1>
