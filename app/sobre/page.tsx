@@ -28,8 +28,8 @@ export default function Sobre() {
         Prazer, sou <span className="text-yellow-300">Sandro Luz</span>
       </h1>
       <section className="mt-8 max-w-xl space-y-6 text-zinc-400 text-light ">
-        {paragraphs.map((paragraph) => (
-          <p className="">{paragraph.content}</p>
+        {paragraphs.map((paragraph, index) => (
+          <p key={index}>{paragraph.content}</p>
         ))}
       </section>
       <p className={`${islandMoments.className} text-5xl mt-6`}>Sandro Luz</p>

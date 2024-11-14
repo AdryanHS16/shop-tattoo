@@ -26,8 +26,8 @@ export default function Servicos() {
     <main>
       <h1 className="text-3xl font-black text-yellow-300 mt-12">Serviços</h1>
       <section className="flex gap-12 mt-16">
-        {services.map((service) => (
-          <article>
+        {services.map((service, index) => (
+          <article key={service.name || index}>
             <h2 className="font-black text-white text-lg mb-4">
               {service.name}
             </h2>
